@@ -1,0 +1,22 @@
+{
+  "name": "kakao-map",
+  "version": "1.0.0",
+  "description": "카카오맵 지도 검색",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkddnjswl7/kakao-map.git"
+  },
+  "author": "wonji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkddnjswl7/kakao-map/issues"
+  },
+  "homepage": "https://github.com/wkddnjswl7/kakao-map#readme",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
