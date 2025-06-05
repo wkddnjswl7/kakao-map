@@ -16,4 +16,4 @@ build/
 
 # IDE 설정 파일
 .vscode/
-.idea/
+.idea/node_modules/
