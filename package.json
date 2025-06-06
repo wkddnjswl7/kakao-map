@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "카카오맵 지도 검색",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "NODE_ENV=development webpack server --config ./scripts/webpack.config.js --progress --mode development",
+    "tsc": "tsc",
+    "build" : "NODE_ENV=production webpack --config ./scripts/webpack.config.js --progress --mode production"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wkddnjswl7/kakao-map.git"
@@ -19,6 +23,19 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/node": "^22.15.30",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.8.3",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2"
